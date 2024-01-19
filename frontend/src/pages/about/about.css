@@ -1,0 +1,51 @@
+
+
+.about-container {
+    text-align: left; /* Center-align all text content */
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 130px;
+    padding-top: 100px;
+    background-image: url('../../asset/tree.jpg'); /* Replace with your image file path */
+  /* background-size: cover; Cover the entire container with the background image */
+  background-position: center; 
+  background-repeat: no-repeat; 
+  }
+  h1{
+   
+    font-size: 30px;
+    color: #545f66;
+    text-align: left;
+  }
+  
+  .text {
+    margin: 18px 0; /* Add spacing between elements */
+    font-size: 24px;
+
+  }
+  
+  .button-list {
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+  }
+  
+  .button-list li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  .button{
+    background-color: #bccad0de; /* Background color for the footer */
+    color: black; /* Text color */
+    text-align: center;
+    padding: 5px; /* Add padding to the top and bottom */
+    border-radius: 5px;
+    max-width: 800px; 
+  }
+
+    .button:hover{
+        background-color: #b6e7ebde; /* Background color for the footer */
+        color: black; /* Text color */
+        text-align: center;
+        padding: 5px; /* Add padding to the top and bottom */
+        border-radius: 5px;
+        max-width: 800px; /* Set a maximum width for the container */
+    }
