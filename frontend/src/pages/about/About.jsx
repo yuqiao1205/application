@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './about.css'; 
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './about.css'
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
       {/* Render buttons for each team member */}
       <ul className="button-list">
         <li>
-          <Link to="/about/yanpeng">
+          <Link to="/about/yan_peng">
             <button className='button'>Yan Peng</button>
           </Link>
         </li>
@@ -41,14 +41,14 @@ const About = () => {
           </Link>
         </li>
         <li>
-          <Link to="/about/yanpeng">
+          <Link to="/about/yan_peng">
             <button>6</button>
           </Link>
         </li>
         {/* Add more team members here */}
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About
