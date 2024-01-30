@@ -27,6 +27,13 @@ module.exports = {
   plugins: [
     'react'
   ],
+  settings: {
+    react: {
+      version: 'detect' // Automatically detect the React version
+    }
+  },
+  ignorePatterns: ['**/*.json', 'coverage/'],
   rules: {
   }
+
 }
