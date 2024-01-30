@@ -21,6 +21,7 @@ const About = () => {
           </Link>
         </li>
         <li>
+              {/* you change here for each team member */}
           <Link to="/about/yanpeng">
             <button>2</button>
           </Link>
