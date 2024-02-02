@@ -10,17 +10,13 @@ const Yanpeng = () => {
     navigate('/')
     //   navigate(-1);
   }
-
   return (
-    <div className="yanpeng-container">
-      <div className="overlay-text">Welcome Yan Peng&apos;s Page</div>
-      <img src={Lauren} alt="Yan" className="yanpeng-image" />
-      <p className="back back-link" onClick={goBack}>
-        Back
-      </p>
-      <div className="yanpeng-text">
+    <div className='yanpeng-container'>
+      <div className='overlay-text'> Welcome Yan Peng&apos;s Page</div>
+      <img src={Lauren} alt= 'Yan' className= 'yanpeng-image' />
+      <div className='yanpeng-text'>
         <h2>Yan Peng</h2>
-        <h2>Role: your role</h2>
+        <h2>Role: Backend Developer</h2>
         <h2>About Me:</h2>
         <p>
           I&apos;m Originally from China, I have a passion for exploring diverse
@@ -33,6 +29,9 @@ const Yanpeng = () => {
 
         {/* Add additional content for Yan's page */}
       </div>
+      <p className='back back-link' onClick={goBack}>
+        Back
+      </p>
     </div>
   )
 }

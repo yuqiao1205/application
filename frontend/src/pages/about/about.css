@@ -1,21 +1,23 @@
 
 
 .about-container {
-    text-align: left; /* Center-align all text content */
-    max-width: 1200px; /* Set a maximum width for the container */
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 130px;
-    padding-top: 100px;
-    background-image: url('../../asset/tree.jpg'); /* Replace with your image file path */
-  /* background-size: cover; Cover the entire container with the background image */
+    text-align: center; /* Center-align all text content */
+    max-width: 1300px; 
+    margin: 0 auto; /* Center the container */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url('../../asset/about1.jpg'); /* Replace with your image file path */
   background-position: center; 
-  background-repeat: no-repeat; 
+  /* background-repeat: no-repeat;  */
+  background-size: cover;
+  background-color: transparent;
   }
-  h1{
+  .about-header {
    
-    font-size: 30px;
-    color: #545f66;
+    font-size: 20px;
+    color: #404547;
     text-align: left;
+    padding-left: 50px;
   }
   
   .text {
@@ -33,7 +35,7 @@
     margin-bottom: 10px; /* Add spacing between list items */
   }
   .button{
-    background-color: #bccad0de; /* Background color for the footer */
+    background-color: #84bed7de; /* Background color for the footer */
     color: black; /* Text color */
     text-align: center;
     padding: 5px; /* Add padding to the top and bottom */
