@@ -6,7 +6,7 @@
     margin: 0 auto; /* Center the container */
     padding-top: 50px;
     padding-bottom: 50px;
-    background-image: url('../../asset/about1.jpg'); /* Replace with your image file path */
+    background-image: url('../../asset/about.jpg'); /* Replace with your image file path */
   background-position: center; 
   /* background-repeat: no-repeat;  */
   background-size: cover;

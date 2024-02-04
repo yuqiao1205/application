@@ -1,5 +1,5 @@
 import React from 'react'
-import Lauren from '../../../asset/yan3.jpg'
+import Lauren from '../../../asset/yan.jpg'
 import { useNavigate } from 'react-router-dom'
 import './yan.css'
 
