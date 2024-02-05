@@ -1,5 +1,4 @@
 import express from 'express'
-// import authRoutes from "./routes/auth.js";
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import bodyParser from 'body-parser'
@@ -23,5 +22,5 @@ app.use((err, req, res, next) => {
 })
 
 app.listen(port, () => {
-  console.log('Connected!')
+  console.log('Server Connected!')
 })
