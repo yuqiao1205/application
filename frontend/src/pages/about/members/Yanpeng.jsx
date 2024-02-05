@@ -27,7 +27,6 @@ const Yanpeng = () => {
           journey of learning and growth.
         </p>
 
-        {/* Add additional content for Yan's page */}
       </div>
       <p className='back back-link' onClick={goBack}>
         Back
